@@ -40,39 +40,39 @@ div#mycontainer {
 div.mytocont {
   grid-area: mytocont;
   text-align: left !important;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.mycccont {
   grid-area: mycccont;
   text-align: left !important;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.mybcccont {
   grid-area: mybcccont;
   text-align: left !important;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.mydatecont {
   grid-area: mydatecont;
   text-align: left !important;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.myfrom {
   grid-area: myfrom;
   padding-left: 10px !important;
   text-align: left;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.myfromcont {
   grid-area: myfromcont;
   text-align: left !important;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.myattach {
   grid-area: myattach;
@@ -80,42 +80,42 @@ div.myattach {
   padding-bottom: 2px;
   text-align: left;
   font-weight: bold;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 
 div.myattachcont {
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 10px;
+    line-height: 1.2;
 }
 
 div.myto {
   grid-area: myto;
   padding-left: 10px !important;
   text-align: left;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.mycc {
   grid-area: mycc;
   padding-left: 10px !important;
   text-align: left;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.mybcc {
   grid-area: mybcc;
   padding-left: 10px !important;
   text-align: left;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.mydate {
   grid-area: mydate;
   padding-left: 10px !important;
   text-align: left;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 div.myhead {
   grid-area: myhead;
@@ -124,7 +124,7 @@ div.myhead {
   text-align: left;
   padding-left: 10px !important;
   padding-top: 10px !important;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 div.myphoto {
   display: flex;
@@ -134,8 +134,8 @@ div.myphoto {
   align-items: center !important;
   width: auto !important;
   padding-right: 10px !important;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
 }
 
 #kmailContent {
