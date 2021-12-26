@@ -1,0 +1,148 @@
+div#headerbox {
+
+  position: relative;
+  top: 70px;
+}
+
+
+div#mycontainer {
+  display: grid;
+  gap: 6px 6px;
+
+  grid-template-columns: 60px 400px 100px 80px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "myhead myhead myhead myphoto"
+    "mydate mydatecont mydatecont myphoto"
+    "myfrom myfromcont myfromcont myphoto"
+    "myto mytocont mytocont myphoto"
+    "mycc mycccont mycccont myphoto"
+    "mybcc mybcccont mybcccont myphoto"
+    "myattach myattachcont myattachcont myattachcont";
+
+  background-color: lightgray;
+  background-image: linear-gradient(white, gray);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 30px 30px 80px -20px #050505;
+  border-radius:10px;
+  border-top: 5px groove #33333350;
+  border-color: #33333350;
+  border-width: thick;
+  width: 650px;
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+}
+
+div.mytocont {
+  grid-area: mytocont;
+  text-align: left !important;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.mycccont {
+  grid-area: mycccont;
+  text-align: left !important;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.mybcccont {
+  grid-area: mybcccont;
+  text-align: left !important;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.mydatecont {
+  grid-area: mydatecont;
+  text-align: left !important;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.myfrom {
+  grid-area: myfrom;
+  padding-left: 10px !important;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.myfromcont {
+  grid-area: myfromcont;
+  text-align: left !important;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.myattach {
+  grid-area: myattach;
+  padding-left: 10px !important;
+  padding-bottom: 2px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+div.myattachcont {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+div.myto {
+  grid-area: myto;
+  padding-left: 10px !important;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.mycc {
+  grid-area: mycc;
+  padding-left: 10px !important;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.mybcc {
+  grid-area: mybcc;
+  padding-left: 10px !important;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.mydate {
+  grid-area: mydate;
+  padding-left: 10px !important;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.myhead {
+  grid-area: myhead;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px !important;
+  padding-top: 10px !important;
+  line-height: 1.5;
+}
+div.myphoto {
+  display: flex;
+  grid-area: myphoto;
+  align: right !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: auto !important;
+  padding-right: 10px !important;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#kmailContent {
+	border-radius:2px;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 1px 1px 8px -2px #444;
+	clear: both;
+  width: 900px;
+}

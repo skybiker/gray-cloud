@@ -1,0 +1,51 @@
+<link href="{{ header.absoluteThemePath }}/style.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<div id="kmailPage">
+   <div id="headerbox">
+      <div id="mycontainer" align-self="center">
+        <div class="myhead">{{ header.subject|safe }}</div>
+
+        <div class="myphoto" style="justify-self: end;">
+            {% if header.photourl %}
+            <img src="{{ header.photourl }}" />
+            {% else %}
+            <img src="{{ header.absoluteThemePath }}/photo.png" />
+            {% endif %}
+	    </div>
+        <div class="myfrom">{{ header.fromi18n }}</div>
+        <div class="myfromcont">
+            {{ header.from.fullAddress|safe }}
+
+              {% if header.resentfrom.isSet %}
+            {{ header.resentfromi18n }}: {{ header.resentfrom.fullAddress|safe }}
+              {% endif %}
+
+              {% if header.vcardname %}
+              <a href="{{ header.vcardname|safe }}">{{ header.vcardi18n }}</a>
+              {% endif %}
+
+              {% if header.organization %}
+                ({{ header.organization|safe }})
+                 {% endif %}
+        </div>
+        <div class="myto">{{ header.toi18n }}</div>
+        <div class="mytocont">{{ header.to.expandable|safe }}</div>
+        <div class="mycc"> {% if header.cc.isSet %} {{ header.cci18n }} {% endif %}</div>
+        <div class="mycccont"> {% if header.cc.isSet %} {{ header.cc.expandableCc|safe }} {% endif %}</div>
+        <div class="mybcc"> {% if header.bcc.isSet %}{{ header.bcci18n }} {% endif %}</div>
+        <div class="mybcccont">{% if header.bcc.isSet %} {{ header.bcc.expandableBcc|safe }} {% endif %}</div>
+        <div class="myattach">
+          {% if header.hasAttachment %}
+             &#9660&nbspAttachments&nbspavailable&nbsp&#9660
+             <!--
+              <div>{{ header.attachmentHtml|safe }}</div>
+              -->
+          {% endif %}
+        </div>
+        <div class="mydate">{{ header.datei18n }}</div>
+        <div class="mydatecont">{{ header.date.short }}<div>
+
+      </div>
+    </div>
+</div>
