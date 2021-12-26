@@ -41,38 +41,38 @@ div.mytocont {
   grid-area: mytocont;
   text-align: left !important;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.mycccont {
   grid-area: mycccont;
   text-align: left !important;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.mybcccont {
   grid-area: mybcccont;
   text-align: left !important;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.mydatecont {
   grid-area: mydatecont;
   text-align: left !important;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.myfrom {
   grid-area: myfrom;
   padding-left: 10px !important;
   text-align: left;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.myfromcont {
   grid-area: myfromcont;
   text-align: left !important;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.myattach {
   grid-area: myattach;
@@ -81,12 +81,12 @@ div.myattach {
   text-align: left;
   font-weight: bold;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 
 div.myattachcont {
     font-size: 10px;
-    line-height: 1.2;
+    line-height: 1.0;
 }
 
 div.myto {
@@ -94,28 +94,28 @@ div.myto {
   padding-left: 10px !important;
   text-align: left;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.mycc {
   grid-area: mycc;
   padding-left: 10px !important;
   text-align: left;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.mybcc {
   grid-area: mybcc;
   padding-left: 10px !important;
   text-align: left;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.mydate {
   grid-area: mydate;
   padding-left: 10px !important;
   text-align: left;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.myhead {
   grid-area: myhead;
@@ -124,7 +124,7 @@ div.myhead {
   text-align: left;
   padding-left: 10px !important;
   padding-top: 10px !important;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 div.myphoto {
   display: flex;
@@ -135,7 +135,7 @@ div.myphoto {
   width: auto !important;
   padding-right: 10px !important;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 
 #kmailContent {
