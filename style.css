@@ -18,7 +18,7 @@ div#mycontainer {
     "myto mytocont mytocont myphoto"
     "mycc mycccont mycccont myphoto"
     "mybcc mybcccont mybcccont myphoto"
-    "myattach myattachcont myattachcont myattachcont";
+    "myattach myattachcont myattachcont myphoto";
 
   background-color: lightgray;
   background-image: linear-gradient(white, gray);
@@ -31,7 +31,7 @@ div#mycontainer {
   border-top: 5px groove #33333350;
   border-color: #33333350;
   border-width: thick;
-  width: 650px;
+  width: 680px;
   position: relative;
   bottom: 50px;
   left: 100px;
@@ -133,9 +133,11 @@ div.myphoto {
   justify-content: center !important;
   align-items: center !important;
   width: auto !important;
-  padding-right: 10px !important;
   font-size: 10px;
   line-height: 1.0;
+  padding: 3px;
+  margin: auto;
+  border-style: groove;
 }
 
 #kmailContent {
